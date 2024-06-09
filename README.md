@@ -16,6 +16,7 @@ Es un sitio que muestra información sobre Harry Potter consumiendo la api `http
 
 -  Photoshop: Tratamiento de imagenes en la sección de tabs.
 -  Color Hunt: Para generar la [paleta de colores](https://colorhunt.co/palette/d8efd395d2b355ad9bf1f8e8)
+- Google Fonts: Para obtener la fuente Cinzel que es media Harry Potterezca.
 -  ChatGPT: Generación de textos para las tabs (porque no vi Harry Potter 😅 no hate)
 
 ## Autor
