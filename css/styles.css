@@ -107,6 +107,7 @@ footer {
 
 .text-content p {
    max-width: 50ch;
+   text-align: justify;
 }
 
 .text-content h2 {
@@ -133,7 +134,7 @@ footer {
 }
 
 .card {
-   background-color: white;
+   background-color: #f0faee;
    border-radius: 10px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    overflow: hidden;
@@ -180,6 +181,10 @@ footer {
    .tabs-section {
       margin-bottom: 100px;
    }
+
+   .text-content p {
+    max-width: 100%;
+ }
 }
 
 @media (max-width: 600px) {
