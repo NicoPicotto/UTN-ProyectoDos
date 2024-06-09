@@ -92,6 +92,7 @@ footer {
    grid-template-columns: repeat(4, 1fr);
    gap: 20px;
    padding: 20px;
+   margin-bottom: 50px;
 }
 
 .card {
@@ -106,8 +107,9 @@ footer {
 .card img {
    width: 100%;
    height: auto;
-   max-height: 500px;
+   max-height: 375px;
    object-fit: cover;
+   object-position: top;
 }
 
 .card-content {
