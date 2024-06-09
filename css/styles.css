@@ -4,10 +4,11 @@ body {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   background-color: #f1f8e8;
 }
 
 header {
-   background-color: #343a40;
+   background-color: #55ad9b;
    color: white;
    padding: 1em 0;
 }
@@ -39,7 +40,7 @@ main {
 }
 
 footer {
-   background-color: #343a40;
+   background-color: #55ad9b;
    color: white;
    text-align: center;
    padding: 1em 0;
@@ -61,17 +62,16 @@ footer {
 
 .tab-button {
    padding: 10px 20px;
-   color: #343a40;
    border: none;
    cursor: pointer;
-   background-color: #f0f0f0;
+   background-color: #d8efd3;
    margin: 0 5px;
    transition: background-color 0.3s;
 }
 
 .tab-button.active {
-   background-color: #343a40;
-   color: #f0f0f0;
+   background-color: #55ad9b;
+   color: #f1f8e8;
 }
 
 .tab-content {
@@ -83,7 +83,44 @@ footer {
 }
 
 .tab-solapa.active {
-   display: block;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.tab-content-container {
+   display: flex;
+   flex-direction: row;
+   background-color: #b2d5b8;
+   padding: 20px;
+   justify-content: center;
+   text-align: left;
+   max-width: 1200px;
+   margin: 0 auto;
+   gap: 20px;
+   border-radius: 10px;
+}
+
+.text-content {
+   flex: 1;
+}
+
+.text-content p {
+   max-width: 50ch;
+}
+
+.text-content h2 {
+   margin: 0;
+}
+
+.image-content {
+   flex: 1;
+}
+
+.image-content img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 10px;
 }
 
 /*Esto es de las cards*/
@@ -134,6 +171,14 @@ footer {
 @media (max-width: 900px) {
    .grid {
       grid-template-columns: repeat(2, 1fr);
+   }
+
+   .tab-content-container {
+      flex-direction: column;
+   }
+
+   .tabs-section {
+      margin-bottom: 100px;
    }
 }
 
