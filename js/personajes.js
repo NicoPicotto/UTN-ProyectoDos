@@ -1,12 +1,9 @@
 fetch("https://hp-api.onrender.com/api/characters")
-   .then((response) => {
-      return response.json();
-   })
+   .then((response) => response.json())
    .then((data) => {
-      console.log(data);
       const grid = document.querySelector(".grid");
       data.forEach((character) => {
-         // Algunas no tienen foto y queda feo así que le filtro por als que tienen foto nomas
+         // Algunas no tienen foto y queda feo así que agregué condicional para mostrar las que tienen foto nomas
          if (character.image) {
             const card = document.createElement("div");
             card.classList.add("card");
