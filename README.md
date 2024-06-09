@@ -8,6 +8,7 @@ Es un sitio que muestra información sobre Harry Potter consumiendo una API exte
 
 ## Herramientas
 
+-  Home: El `js` maneja una sección de tab (solapas) para mostrar info distinta según el usuario elija. Para eso se le agregar o quita una clase `active` que cambia los estilos.
 
 ## Autor
 

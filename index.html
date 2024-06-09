@@ -22,8 +22,34 @@
             <p>
                En este sitio encontrarás información detallada sobre el universo
                de Harry Potter, incluyendo personajes, casas, hechizos y mucho
-               más.
+               más. Selecciona la solapa que quieres conocer, o ve a la
+               <a href="/pages/personajes.html">página de Personajes</a> para
+               ver el detalle de cada uno.
             </p>
+         </section>
+         <!-- Voy a hacer una sección tipo tabs para practicar js tmb-->
+         <section class="tabs-section">
+            <div class="tabs">
+               <button class="tab-button active" data-tab="personajes">
+                  Personajes
+               </button>
+               <button class="tab-button" data-tab="casas">Casas</button>
+               <button class="tab-button" data-tab="hechizos">Hechizos</button>
+            </div>
+            <div class="tab-content">
+               <div class="tab-solapa active" id="personajes">
+                  <h2>Personajes</h2>
+                  <p>Harry Potter, Hermione Granger, Ron Weasley, etc.</p>
+               </div>
+               <div class="tab-solapa" id="casas">
+                  <h2>Casas</h2>
+                  <p>Gryffindor, Slytherin, Hufflepuff, Ravenclaw</p>
+               </div>
+               <div class="tab-solapa" id="hechizos">
+                  <h2>Hechizos</h2>
+                  <p>Expelliarmus, Wingardium Leviosa, Avada Kedavra</p>
+               </div>
+            </div>
          </section>
       </main>
 

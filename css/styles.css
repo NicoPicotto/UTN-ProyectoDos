@@ -48,3 +48,39 @@ footer {
    bottom: 0;
 }
 /*acá arrancan los míos nuevos*/
+.tabs-section {
+   margin: 20px;
+}
+
+.tabs {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.tab-button {
+   padding: 10px 20px;
+   color: #343a40;
+   border: none;
+   cursor: pointer;
+   background-color: #f0f0f0;
+   margin: 0 5px;
+   transition: background-color 0.3s;
+}
+
+.tab-button.active {
+   background-color: #343a40;
+   color: #f0f0f0;
+}
+
+.tab-content {
+   text-align: center;
+}
+
+.tab-solapa {
+   display: none;
+}
+
+.tab-solapa.active {
+   display: block;
+}
