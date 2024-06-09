@@ -4,7 +4,7 @@ Segundo proyecto poniendo en práctica **JS**.
 
 ## ¿De qué se trata?
 
-Es un sitio que muestra información sobre Harry Potter consumiendo una API externa.
+Es un sitio que muestra información sobre Harry Potter consumiendo la api `https://hp-api.onrender.com/api/characters.`. Se creó en base a un template y se intentó mantener los estilos que traía.
 
 ## Herramientas
 

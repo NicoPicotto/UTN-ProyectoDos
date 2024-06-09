@@ -3,12 +3,12 @@ const $tabSolapas = document.querySelectorAll(".tab-solapa");
 
 $tabButtons.forEach((button) => {
    button.addEventListener("click", function () {
-      const tab = this.getAttribute("data-tab");
+      const tab = button.getAttribute("data-tab");
 
       $tabButtons.forEach((button) => button.classList.remove("active"));
       $tabSolapas.forEach((solapa) => solapa.classList.remove("active"));
 
-      this.classList.add("active");
+      button.classList.add("active");
       document.getElementById(tab).classList.add("active");
    });
 });
