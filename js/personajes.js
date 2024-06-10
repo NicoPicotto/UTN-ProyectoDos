@@ -21,7 +21,7 @@ fetch("https://hp-api.onrender.com/api/characters")
                                 <div class="card-content">
                                     <h3>${character.name}</h3>
                                     <p><strong>🧬 Especie:</strong> ${character.species}</p>
-                                    <p><strong>🎥 Actor:</strong> ${character.actor}</p>
+                                    <p><strong>🎥 Intérprete:</strong> ${character.actor}</p>
                                     <p><strong>🩺 Estado:</strong> ${estado}</p>
                                 </div>
                             `;
